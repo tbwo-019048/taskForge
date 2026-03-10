@@ -1,0 +1,27 @@
+# Tauri / Rust build artifacts - NEVER commit these!
+**/target/
+src-tauri/target/
+Cargo.lock
+
+# React / Vite build output
+node_modules/
+dist/
+build/
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor / IDE folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Tauri specific
+src-tauri/src-tauri.log
